@@ -20,7 +20,7 @@ The following video illustrates how to use the App
 ![image](https://user-images.githubusercontent.com/26895736/116097247-95382f00-a66f-11eb-85c1-3f215a131113.png)
 
 
-[![ScreenShot]((https://user-images.githubusercontent.com/26895736/116097159-7fc30500-a66f-11eb-8276-0796a93d3d2a.png)](https://www.youtube.com/watch?v=zLuhMVZRa9E)
+[![ScreenShot]((https://user-images.githubusercontent.com/26895736/116097159-7fc30500-a66f-11eb-8276-0796a93d3d2a.png)(https://www.youtube.com/watch?v=zLuhMVZRa9E)
 
 
 * If you want to test the app with sewers faillures. Extract the folder called: Sample_images.zip o https://drive.google.com/u/1/uc?id=16GTvZwzdWhFhLtqN23PGg7RGA_NibMaT&export=download and test the app with this images. 
