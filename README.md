@@ -42,9 +42,8 @@ pip install -r requirements.txt
 python index.py
 ```
 
-![IMAGEN_2](https://github.com/arracinim/Sewers-Rover/blob/master/static/run_app.jpg)
-![IMAGEN_2](https://github.com/arracinim/Sewers-Rover/blob/master/static/dashboard_running.jpg)
-
+![image](https://user-images.githubusercontent.com/26895736/116101381-6328cc00-a673-11eb-8a87-d95d1b571bf9.png)
+![image](https://user-images.githubusercontent.com/26895736/116101447-6e7bf780-a673-11eb-8427-ca706562a367.png)
 
 
 
