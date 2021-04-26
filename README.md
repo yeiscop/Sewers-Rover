@@ -17,6 +17,8 @@ AZURE LINK (App Private - only login with VPN) <br>
 https://wa-epm-prod-ds4.prod-ase01.epm.com.co/ <br>
 
 The following video illustrates how to use the App
+![image](https://user-images.githubusercontent.com/26895736/116097247-95382f00-a66f-11eb-85c1-3f215a131113.png)
+
 
 [![ScreenShot](![image](https://user-images.githubusercontent.com/26895736/116097159-7fc30500-a66f-11eb-8276-0796a93d3d2a.png))](https://www.youtube.com/watch?v=zLuhMVZRa9E)
 
