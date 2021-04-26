@@ -101,7 +101,7 @@ python tools/XML_to_YOLOv3.py
 * Training
 Before starting the training process, change the Transfer Learning and Data Augmetation parameters to True in the `./yolov3/configs.py` file.
 
-![IMAGEN_1](https://github.com/arracinim/Sewers-Rover/blob/master/static/Train_Options.png)
+![image](https://user-images.githubusercontent.com/26895736/116101988-ea763f80-a673-11eb-8acf-0f0fad8924de.png)
 
 Now, you can train it and then evaluate your model:
 ```
@@ -114,8 +114,8 @@ When the training is finished, for this case 12.5 hours, the model is evaluated 
 tensorboard --logdir=log
 Track training progress in Tensorboard and go to http://localhost:6006/:
 ```
-![IMAGEN_2](https://github.com/arracinim/Sewers-Rover/blob/master/static/Tensor_Board_Train.png)
-![IMAGEN_3](https://github.com/arracinim/Sewers-Rover/blob/master/static/Tensor_Board_Valid.png)
+![image](https://user-images.githubusercontent.com/26895736/116102095-01b52d00-a674-11eb-8064-6534ac0c3994.png)
+![image](https://user-images.githubusercontent.com/26895736/116102123-0974d180-a674-11eb-9c44-e0de1dff8d2e.png)
 
 * In none of the metrics given by *TensorBoard* is it possible to observe over or under adjustment problems. 
 * The total error tended to decrease in the two (2) dates as the epochs increased.
@@ -130,14 +130,14 @@ python detection_custom.py
 
 The model presented a performance according to what was expected in the detection of anomalies of the sewer system, generalizing in its prediction; as shown in the following samples.
 
-![IMAGEN_4](https://github.com/arracinim/Sewers-Rover/blob/master/static/DE1_detect.jpg)
-![IMAGEN_5](https://github.com/arracinim/Sewers-Rover/blob/master/static/F1_detect.jpg)
-![IMAGEN_6](https://github.com/arracinim/Sewers-Rover/blob/master/static/HU01_detect.jpg)
-![IMAGEN_7](https://github.com/arracinim/Sewers-Rover/blob/master/static/HU2_detect.jpg)
-![IMAGEN_8](https://github.com/arracinim/Sewers-Rover/blob/master/static/RA_DE1_detect.jpg)
-![IMAGEN_9](https://github.com/arracinim/Sewers-Rover/blob/master/static/RA_DE2_detect.jpg)
-![IMAGEN_10](https://github.com/arracinim/Sewers-Rover/blob/master/static/RA0_detect.jpg)
-![IMAGEN_11](https://github.com/arracinim/Sewers-Rover/blob/master/static/RA2_detect.jpg)
+![image](https://user-images.githubusercontent.com/26895736/116102234-27423680-a674-11eb-9c22-2d12b1dc37b7.png)
+![image](https://user-images.githubusercontent.com/26895736/116102284-34f7bc00-a674-11eb-9761-e6f8230f5a4d.png)
+![image](https://user-images.githubusercontent.com/26895736/116102324-3d4ff700-a674-11eb-954c-b534e2ebd818.png)
+![image](https://user-images.githubusercontent.com/26895736/116102438-548ee480-a674-11eb-96d2-6bb906212d54.png)
+![image](https://user-images.githubusercontent.com/26895736/116102506-62dd0080-a674-11eb-9357-4dbe547ec2fe.png)
+![image](https://user-images.githubusercontent.com/26895736/116102558-6ec8c280-a674-11eb-912b-0b235d4f98c9.png)
+![image](https://user-images.githubusercontent.com/26895736/116102613-79835780-a674-11eb-86a4-31c1731c7f61.png)
+![image](https://user-images.githubusercontent.com/26895736/116102653-830cbf80-a674-11eb-9e04-4a76971a0be4.png)
 
 The *giou* metric evidenced the power of the algorithm when differentiating images from above, such as roots with deposits.
 
