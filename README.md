@@ -28,7 +28,7 @@ If you want to run the application locally:
 1. You must download the data of the model from this link: https://drive.google.com/u/1/uc?export=download&confirm=RvgA&id=10777tL9PnvYKCxK78tSM_xSB_gsUXN-1
 2. Then copy and paste both folders inside the project folder (This folder contains all the data requiered for YOLO V3 model)
 
-![IMAGEN_2](https://github.com/arracinim/Sewers-Rover/blob/master/static/app_2.jpg)
+![image 2](https://user-images.githubusercontent.com/26895736/116101170-3a083b80-a673-11eb-8245-decddd623fa8.png)
 
 3. Install all the requirements. Inside the main folder of the project run the command:
 
